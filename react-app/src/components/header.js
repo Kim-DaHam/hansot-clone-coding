@@ -1,19 +1,10 @@
 import "../stylesheets/header.css";
 import $ from 'jquery';
+import { useEffect, useState } from "react";
 
-function header(){
-    $(".nav-item").hover(
-        function(){
-            $('#collapse-menu').collapse('show');
-            $(".nav-item").children.css("color","rgb(255, 209, 0)");
-            
-        }, function(){
-            $('#collapse-menu').collapse('hide');
-        }
-    );
+function Header(){
     return(
         <div id="Header">
-            
             <div id="miniBar">
                 <ul>
                     <li><a href="#">로그인</a></li>
@@ -28,13 +19,13 @@ function header(){
                 <nav id="navBody" class="navbar navbar-expand-sm">
                     <a id="Logo" href="#" class="navbar-brand"><img src="images/Logo.jpg"/></a>
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="#" data-toggle="collapse">BRAND</a></li>
-                        <li class="nav-item"><a href="#" data-toggle="collapse">ESG</a></li>
-                        <li class="nav-item"><a href="#" data-toggle="collapse">MENU</a></li>
-                        <li class="nav-item"><a href="#" data-toggle="collapse">STORE</a></li>
-                        <li class="nav-item"><a href="#" data-toggle="collapse">EVENT</a></li>
-                        <li class="nav-item"><a href="#" data-toggle="collapse">FRANCHISE</a></li>
-                        <li class="nav-item"><a href="#" data-toggle="collapse">HANSOT</a>
+                        <li class="nav-item"><a href="#collapse-menu" data-toggle="collapse">BRAND</a></li>
+                        <li class="nav-item"><a href="#collapse-menu" data-toggle="collapse">ESG</a></li>
+                        <li class="nav-item"><a href="#collapse-menu" data-toggle="collapse">MENU</a></li>
+                        <li class="nav-item"><a href="#collapse-menu" data-toggle="collapse">STORE</a></li>
+                        <li class="nav-item"><a href="#collapse-menu" data-toggle="collapse">EVENT</a></li>
+                        <li class="nav-item"><a href="#collapse-menu" data-toggle="collapse">FRANCHISE</a></li>
+                        <li class="nav-item"><a href="#collapse-menu" data-toggle="collapse">HANSOT</a>
                         </li>
                     </ul>
                 </nav>
@@ -55,4 +46,4 @@ function header(){
     )
 }
 
-export default header;
+export default Header;
