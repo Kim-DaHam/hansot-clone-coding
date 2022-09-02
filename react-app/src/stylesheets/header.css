@@ -1,5 +1,5 @@
 #Header {
-    width: 940px;
+    width: 1450px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -27,12 +27,20 @@
     text-decoration-line: none;
 }
 
-#navBody {
-    width: 940px;
+
+#NavBar {
+    margin-top: 10px;
 }
 
-#NavBar Logo {
-    height: 100px;
+#navBody {
+    width: 1450px;
+    height: 130px;
+    background-color: white;
+    border: 1px solid green;
+}
+
+#Logo {
+    margin-left: 20px;
 }
 
 #NavBar ul {
