@@ -1,9 +1,9 @@
-import "../stylesheets/style.css";
+import "../stylesheets/header.css";
 
 function header(){
     return(
         <div id="Header">
-            /* --miniBar-- */
+            
             <div id="miniBar">
                 <ul>
                     <li><a href="#">로그인</a></li>
@@ -13,10 +13,10 @@ function header(){
                 </ul>
             </div>
             <br/>
-            /* --NavBar-- */
+            
             <div id="NavBar">
                 <nav id="navBody" class="navbar navbar-expand-sm bg-light navbar-light">
-                    <a id="Logo" href="#" class="navbar-brand"><img src="./images/Logo.JPG"></a>
+                    <a id="Logo" href="#" class="navbar-brand"><img src="../../images/Logo.jpg"/></a>
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="#" data-toggle="collapse" data-target="#collapse-menu">BRAND</a></li>
                         <li class="nav-item"><a href="#" data-toggle="collapse" data-target="#collapse-menu">ESG</a></li>

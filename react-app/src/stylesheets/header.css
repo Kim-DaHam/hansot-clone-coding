@@ -1,0 +1,68 @@
+#Header {
+    width: 940px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#miniBar {
+    float: right;
+}
+
+#miniBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#miniBar li {
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#miniBar li a{
+    color: red;
+    text-decoration-line: none;
+}
+
+#navBody {
+    width: 940px;
+}
+
+#NavBar Logo {
+    height: 100px;
+}
+
+#NavBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right:10px;
+}
+
+#NavBar ul li {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+#NavBar li a{
+    color: black;
+    text-decoration-line: none;
+    font-weight: 600;
+}
+
+#collapse-menu {
+    width: 940px;
+    height: 150px;
+    background-color: rgba(245, 245, 245, 0.76);
+}
+
+#collapse-menu ul {
+    list-style: none;
+    margin: 0;
+    margin-right:20px;
+    padding: 0;
+    float: left;
+}
