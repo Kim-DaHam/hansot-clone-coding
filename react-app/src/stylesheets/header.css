@@ -27,7 +27,6 @@
     text-decoration-line: none;
 }
 
-
 #NavBar {
     margin-top: 10px;
 }
@@ -36,11 +35,11 @@
     width: 1450px;
     height: 130px;
     background-color: white;
-    border: 1px solid green;
 }
 
 #Logo {
     margin-left: 20px;
+    margin-right: 100px;
 }
 
 #NavBar ul {
@@ -51,26 +50,36 @@
 }
 
 #NavBar ul li {
-    margin-left: 22px;
-    margin-right: 22px;
+    margin-left: 70px;
 }
 
 #NavBar li a{
     color: black;
     text-decoration-line: none;
     font-weight: 600;
+    font-size: 19px;
 }
 
 #collapse-menu {
-    width: 940px;
-    height: 150px;
+    width: 1450px;
+    height: 200px;
     background-color: rgba(245, 245, 245, 0.76);
 }
 
 #collapse-menu ul {
     list-style: none;
     margin: 0;
+    margin-top: 20px;
     margin-right:20px;
     padding: 0;
     float: left;
+}
+
+#collapse-menu #menu-detail {
+    margin-left: 554px;
+    margin-right: 480px;
+}
+
+#collapse-menu ul li {
+    text-align: center;
 }
