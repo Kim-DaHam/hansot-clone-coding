@@ -1,6 +1,16 @@
 import "../stylesheets/header.css";
+import $ from 'jquery';
 
 function header(){
+    $(".nav-item").hover(
+        function(){
+            $('#collapse-menu').collapse('show');
+            $(".nav-item").children.css("color","rgb(255, 209, 0)");
+            
+        }, function(){
+            $('#collapse-menu').collapse('hide');
+        }
+    );
     return(
         <div id="Header">
             
