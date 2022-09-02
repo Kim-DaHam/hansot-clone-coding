@@ -1,13 +1,13 @@
-import Header from './components/header.js';
-import mainContent from './components/main-content.js';
-import Footer from './components/footer.js';
+import Header from '../components/header.js';
+import mainContent from '../components/mainContent.js';
+import Footer from '../components/footer.js';
 
-function Home(){
+function Home(props){
     return(
         <>
-            <Header></Header>
-            <mainContent></mainContent>
-            <Footer></Footer>
+            <Header/>
+            <mainContent/>
+            <Footer/>
         </>
     )
 }
