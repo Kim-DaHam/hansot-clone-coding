@@ -1,4 +1,5 @@
 import "../stylesheets/main_content.css";
+import Carousel from 'react-bootstrap/Carousel';
 
 function MainContent(){
     return(
@@ -31,7 +32,7 @@ function MainContent(){
                     <span class="carousel-control-next-icon"></span>
                 </a>
             </div>
-
+            {/*}
             <div id="content01" class="w3-row-padding">
                 <div id="c01-01" name="box" class="w3-third w3-container w3-margin-bottom">
                     <img src="images/image01.jpg" class="w3-hover-opacity"/>
@@ -140,6 +141,7 @@ function MainContent(){
                     </div>
                 </div>
         </div>
+    {*/}
         </div>
     )
 }

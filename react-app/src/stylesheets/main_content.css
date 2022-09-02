@@ -5,14 +5,13 @@
 
 #eventCarouselSlider {
     width: 100%;
-    height: 650px;
+    height: 860px;
     margin: 0;
 }
 
 #eventCarouselSlider img {
     width: 100%;
-    height: 650px;
-    object-fit: cover;
+    height: 860px;
 }
 
 #content01, #content02, #content03, #content04, #content05 {
