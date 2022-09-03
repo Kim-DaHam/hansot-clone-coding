@@ -1,38 +1,31 @@
 import "../stylesheets/main_content.css";
-import Carousel from 'react-bootstrap/Carousel';
+import Bootstrap, { Carousel, BImg } from 'bootstrap-4-react';
+import { useEffect } from "react";
+
 
 function MainContent(){
+
+    useEffect(()=>{
+        window.setTimeout(() => Bootstrap.carousel('#carouselExampleControls'), 2000);
+    });
+
     return(
         <div id="Contents">
-            {/* Carousel */}
-            <div id="eventCarouselSlider" class="carousel slide" data-ride="carousel">
-                {/* Indicators */}
-                <ul class="carousel-indicators">
-                    <li data-target="#eventCarouselSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="#eventCarouselSlider" data-slide-to="1"></li>
-                    <li data-target="#eventCarouselSlider" data-slide-to="2"></li>
-                </ul>
-                {/* The slideshow */}
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/event01.jpg"/>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/event02.jpg"/>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/event03.jpg"/>
-                    </div>
-                </div>
-                {/* Left and right controls */}
-                <a class="carousel-control-prev" href="#eventCarouselSlider" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#eventCarouselSlider" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
-            {/*}
+            <Carousel id="carouselExampleControls">
+                <Carousel.Inner>
+                    <Carousel.Item active><BImg display="block" src='/images/event01.jpg' /></Carousel.Item>
+                    <Carousel.Item><BImg display="block" src='/images/event02.jpg' /></Carousel.Item>
+                    <Carousel.Item><BImg display="block" src='/images/event03.jpg' /></Carousel.Item>
+                </Carousel.Inner>
+                <Carousel.Prev href="#carouselExampleControls">
+                    <Carousel.Prev.Icon />
+                </Carousel.Prev>
+                <Carousel.Next href="#carouselExampleControls">
+                    <Carousel.Next.Icon />
+                </Carousel.Next>
+            </Carousel>
+
+
             <div id="content01" class="w3-row-padding">
                 <div id="c01-01" name="box" class="w3-third w3-container w3-margin-bottom">
                     <img src="images/image01.jpg" class="w3-hover-opacity"/>
@@ -51,7 +44,7 @@ function MainContent(){
                     <div name="black-bar"></div>
                 </div>
             </div>
-
+{/*
             <div id="content02" class="w3-row-padding">
                 <div id="c02-01" name="text-box" class="w3-third w3-container w3-margin-bottom" style="height: 402px; background-color: rgb(255, 209, 0);">
                     <div class="w3-container">
@@ -141,7 +134,7 @@ function MainContent(){
                     </div>
                 </div>
         </div>
-    {*/}
+    */}
         </div>
     )
 }

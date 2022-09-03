@@ -3,17 +3,6 @@
     z-index: -1;
 }
 
-#eventCarouselSlider {
-    width: 100%;
-    height: 690px;
-    margin: 0;
-}
-
-#eventCarouselSlider img {
-    width: 100%;
-    height: 690px;
-}
-
 #content01, #content02, #content03, #content04, #content05 {
     margin-top: 80px;
     margin-bottom: 65px;
