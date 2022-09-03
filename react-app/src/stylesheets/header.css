@@ -1,9 +1,10 @@
 #Header {
     width: 1250px;
     margin-top: 10px;
-    position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
 }
 
 #miniBar {
