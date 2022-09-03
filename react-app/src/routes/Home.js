@@ -1,12 +1,12 @@
-import Header from '../components/header.js';
-import mainContent from '../components/mainContent.js';
-import Footer from '../components/footer.js';
+import Header from '../components/Header.js';
+import MainContent from '../components/MainContent.js';
+import Footer from '../components/Footer.js';
 
 function Home(props){
     return(
         <>
             <Header/>
-            <mainContent/>
+            <MainContent/>
             <Footer/>
         </>
     )
