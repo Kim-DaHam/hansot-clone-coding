@@ -73,19 +73,35 @@
 }
 
 #collapse-menu ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     margin-top: 20px;
-    margin-right:20px;
     padding: 0;
     float: left;
 }
 
-#collapse-menu #menu-detail {
-    margin-left: 554px;
-    margin-right: 480px;
+#collapse-menu li {
+    width: 110px;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
 }
 
-#collapse-menu ul li {
-    text-align: center;
+#collapse-menu #brand-detail {
+    margin-left: 330px;
+}
+
+#collapse-menu #event-detail {
+    margin-right: 20px;
+}
+
+#collapse-menu #fran-detail {
+    margin-right: 35px;
+}
+
+#Header a {
+    color: black;
 }

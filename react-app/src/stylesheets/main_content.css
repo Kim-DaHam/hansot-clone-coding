@@ -7,6 +7,28 @@
     transform: translateX(-50%);
 }
 
+div[name="black-bar"] {
+    position: absolute;
+    z-index: 2;
+    height: 5px;
+    background-color: rgb(92, 89, 83);
+}
+
+div[name="yellow-bar"] {
+    position: absolute;
+    z-index: 3;
+    width: 0px;
+    height: 5px;
+    background-color: rgb(255, 209, 0);
+    transition: all 0.7s ease-in-out;
+    left: 50%;
+}
+
+#Contents a {
+    color: black;
+    text-decoration: none;
+}
+
 #content01, #content02 {
     padding: 0;
     width: 1240px;
@@ -21,6 +43,7 @@
     width: 600px;
     height: 545px;
     padding: 0;
+    position: relative;
     background-color: rgb(239, 236, 236);
 }
 
@@ -30,8 +53,6 @@
 
 #content01 div[name="black-bar"] {
     width: 600px;
-    height: 5px;
-    background-color: black;
 }
 
 #content01 img {
@@ -57,13 +78,12 @@
     width: 400px;
     padding: 0;
     margin-left: 20px;
+    position: relative;
     background-color: rgb(239, 236, 236);
 }
 
 #content02 div[name="black-bar"] {
     width: 400px;
-    height: 5px;
-    background-color: black;
 }
 
 
@@ -71,6 +91,7 @@
 #content03 {
     width: 100%;
     height: 640px;
+    overflow: hidden;
 }
 
 #content03 img {
@@ -78,6 +99,11 @@
     margin: 0;
     width: 100%;
     object-fit: cover;
+    transition: all 0.7s linear;
+}
+
+#content03 img:hover {
+    transform: scale(1.05);
 }
 
 #c03-01 {
@@ -127,15 +153,18 @@
     padding: 0;
     width: 360px;
     height: 448px;
+    position: relative;
     background-color: rgb(239, 236, 236);
 }
 
 
 #c04-02 div[name="black-bar"] {
     width: 360px;
-    height: 5px;
     margin-top: 70px;
-    background-color: black;
+}
+
+#c04-02 div[name="yellow-bar"] {
+    margin-top: 70px;
 }
 
 #c04-02 div.w3-container{

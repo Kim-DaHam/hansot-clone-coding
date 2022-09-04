@@ -3,7 +3,7 @@ import "../stylesheets/footer.css";
 function Footer(){
     return(
         <>
-        <footer class="w3-container w3-center w3-margin-top">
+        <footer className="w3-container w3-center w3-margin-top">
             <ul id="footer-menu">
                 <li>인재채용</li>
                 <li>협력업체등록</li>

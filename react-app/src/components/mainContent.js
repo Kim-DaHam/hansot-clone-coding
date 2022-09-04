@@ -5,8 +5,23 @@ import { useEffect } from "react";
 
 function MainContent(){
 
+    function showYellow(e){
+        const yb = e.currentTarget.parentElement.children['yellow-bar'];
+        const bb = e.currentTarget.parentElement.children['black-bar'];
+
+        yb.style.left = '0%';
+        yb.style.width = getComputedStyle(bb).width;
+    }
+
+    function hideYellow(e) {
+        const yb = e.currentTarget.parentElement.children['yellow-bar'];
+        yb.style.visibility = 'visible';
+        yb.style.left = '50%';
+        yb.style.width = '0px';
+    }
+
     useEffect(()=>{
-        window.setTimeout(() => Bootstrap.carousel('#carouselExampleControls'), 2000);
+
     });
 
     return(
@@ -27,25 +42,31 @@ function MainContent(){
 
             <div id="content01" className="w3-row-padding">
                 <div id="c01-01" className="w3-third w3-container">
-                    <a href="#"><img src="images/image01.jpg"/></a>
-                    <div className="w3-container">
-                        <br/>
-                        <h3>가격 이상의 가치가 담긴<br/>메뉴를 확인해보세요</h3>
-                        <br/>
-                        <button>한솥 메뉴</button>
-                    </div>
-                    <br></br>
+                    <a href="#" onMouseOver={showYellow} onMouseLeave={hideYellow}>
+                        <img src="images/image01.jpg"/>
+                        <div className="w3-container">
+                            <br/>
+                            <h3>가격 이상의 가치가 담긴<br/>메뉴를 확인해보세요</h3>
+                            <br/>
+                            <button>한솥 메뉴</button>
+                        </div>
+                        <br></br>
+                    </a>
+                    <div name="yellow-bar"></div>
                     <div name="black-bar"></div>
                 </div>
                 <div id="c01-02" className="w3-third w3-container">
-                    <a><img href="#" src="images/image02.jpg"/></a>
-                    <div className="w3-container">
-                        <br/>
-                        <h3>갓 지은 한 끼가 기다리고 있는<br/>가까운 한솥 매장을 찾아보세요</h3>
-                        <br/>
-                        <button>주변점포찾기</button>
-                    </div>
+                <a href="#" onMouseOver={showYellow} onMouseLeave={hideYellow}>
+                        <img src="images/image02.jpg"/>
+                        <div className="w3-container">
+                            <br/>
+                            <h3>갓 지은 한 끼가 기다리고 있는<br/>가까운 한솥 매장을 찾아보세요</h3>
+                            <br/>
+                            <button>주변점포찾기</button>
+                        </div>
+                    </a>
                     <br></br>
+                    <div name="yellow-bar"></div>
                     <div name="black-bar"></div>
                 </div>
             </div>
@@ -60,25 +81,29 @@ function MainContent(){
                     </div>
                 </div>
                 <div id="c02-02" className="w3-third w3-container w3-margin-bottom">
-                    <a><img src="images/image03.jpg"/></a>
+                <a href="#" onMouseOver={showYellow} onMouseLeave={hideYellow}>
+                    <img src="images/image03.jpg"/>
                     <div className="w3-container">
                         <br/>
                         <h4>한솥은 언제나 고객과 점주님들의<br/>이익을 먼저 생각합니다</h4>
                         <br/>
                         <button>Why 한솥 가맹점</button>
-                    </div>
+                    </div></a>
                     <br/>
+                    <div name="yellow-bar"></div>
                     <div name="black-bar"></div>
                 </div>
                 <div id="c02-03" className="w3-third w3-container w3-margin-bottom">
-                    <a><img src="images/image04.jpg"/></a>
+                <a href="#" onMouseOver={showYellow} onMouseLeave={hideYellow}>
+                    <img src="images/image04.jpg"/>
                     <div className="w3-container">
                         <br/>
                         <h4>한솥과 함께하는 가맹점주들의<br/>성공 스토리입니다</h4>
                         <br/>
                         <button>성공수기</button>
-                    </div>
+                    </div></a>
                     <br/>
+                    <div name="yellow-bar"></div>
                     <div name="black-bar"></div>
                 </div>
             </div>
@@ -104,22 +129,24 @@ function MainContent(){
             </div>
 
             <div id="content04" className="w3-row-padding">
-                <div id="c04-01" name="box" className="w3-third w3-container w3-margin-bottom">
-                    <img src="images/image06.jpg"/>
-                </div>
-                <div id="c04-02" name="box" className="w3-third w3-container w3-margin-bottom">
-                    <div className="w3-container">
-                        <h1><b>식재료 앞에서는<br/>한없이<br/>까탈스럽습니다</b></h1>
-                        <br/>
-                        <p>
-                            맑고 깨끗한 자연 환경속에서 재배된 식재료가 아니면
-                            한솥이 될 수 없습니다. 모든 식재료는 고객분들이 안심하고
-                            드실 수 있도록 엄격한 기준 아래 선별됩니다.
-                        </p><br/>
-                        <button>식재료이야기</button>
+                    <div id="c04-01" name="box" className="w3-third w3-container w3-margin-bottom">
+                        <img src="images/image06.jpg"/>
                     </div>
-                    <br/>
-                    <div name="black-bar"></div>
+                    <div id="c04-02" name="box" className="w3-third w3-container w3-margin-bottom">
+                    <a href="#" onMouseOver={showYellow} onMouseLeave={hideYellow}>
+                        <div className="w3-container">
+                            <h1><b>식재료 앞에서는<br/>한없이<br/>까탈스럽습니다</b></h1>
+                            <br/>
+                            <p>
+                                맑고 깨끗한 자연 환경속에서 재배된 식재료가 아니면
+                                한솥이 될 수 없습니다. 모든 식재료는 고객분들이 안심하고
+                                드실 수 있도록 엄격한 기준 아래 선별됩니다.
+                            </p><br/>
+                            <button>식재료이야기</button>
+                        </div></a>
+                        <br/>
+                        <div name="yellow-bar"></div>
+                        <div name="black-bar"></div>
                 </div>
             </div>
 

@@ -1,0 +1,21 @@
+.content {
+    width: 970px;
+    margin: 0;
+    margin-left: 20px;
+    padding-left: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+  }
+
+  .MenuList img {
+    width: 100%;
+  }
+
+  .MenuList a {
+    color: black;
+  }
+
+  div[name="menu_item"] div {
+    background-color: rgb(228, 226, 226);
+  }
