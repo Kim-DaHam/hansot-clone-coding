@@ -23,6 +23,7 @@ div[name="black-bar"] {
 .sidenav ul {
     list-style-type: none;
     margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
@@ -30,7 +31,6 @@ div[name="black-bar"] {
     width: 230px;
     height: 55px;
     padding: 12px;
-    margin: 10px;
     margin-left: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -40,8 +40,6 @@ div[name="black-bar"] {
 .sidenav hr {
     margin-top: 15px;
     width: 220px;
-    height: 1px;
-    background-color: lightgray;
     left: 50%;
     transform: translateX(-50%);
     position: relative;
