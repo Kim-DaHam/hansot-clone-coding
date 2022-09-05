@@ -28,9 +28,9 @@ function MainContent(){
         <div id="Contents">
             <Carousel id="carouselExampleControls">
                 <Carousel.Inner>
-                    <Carousel.Item active><BImg display="block" src='/images/event01.jpg' /></Carousel.Item>
-                    <Carousel.Item><BImg display="block" src='/images/event02.jpg' /></Carousel.Item>
-                    <Carousel.Item><BImg display="block" src='/images/event03.jpg' /></Carousel.Item>
+                    <Carousel.Item active><BImg name="eImg" display="block" src='/images/event01.jpg'/></Carousel.Item>
+                    <Carousel.Item><BImg name="eImg" display="block" src='/images/event02.jpg'/></Carousel.Item>
+                    <Carousel.Item><BImg name="eImg" display="block" src='/images/event03.jpg'/></Carousel.Item>
                 </Carousel.Inner>
                 <Carousel.Prev href="#carouselExampleControls">
                     <Carousel.Prev.Icon />
