@@ -1,0 +1,51 @@
+#MVbody {
+    background-color: rgb(239, 236, 236);
+}
+
+#MVContent * {
+    box-sizing: border-box;
+}
+
+#MVContent {
+    width: 1250px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-top: 200px;
+}
+
+#container .grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'left left right right right right';
+    background-color: white;
+}
+
+#inner .header {
+    grid-area: header;
+    padding: 30px;
+    font-size: 35px;
+}
+
+#inner .left, #inner .right {
+    padding: 10px;    
+    height: 300px;
+}
+
+#inner .left {
+    grid-area: left;
+}
+
+#inner .right {
+    grid-area: right;
+}
+
+@media (max-width: 600px) {
+    .grid-container  {
+    grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left left' 
+        'right right right right right right' ;
+    }
+}

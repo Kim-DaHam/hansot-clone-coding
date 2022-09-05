@@ -1,19 +1,19 @@
 import "../stylesheets/header.css";
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
+//import $ from 'jquery';
 //import { useEffect, useState } from "react";
 
 function Header(){
-
+    
     function openCollapse(e) {
         //$('#collapse-menu').collapse('show');
-        const collmenu = document.querySelector('#collapse-menu');
-        collmenu.collapse('show');
+        //const collmenu = document.querySelector('#collapse-menu');
+        //collmenu.collapse('show');
     }
 
     function closeCollapse(e) {
-        const collmenu = document.querySelector('#collapse-menu');
-        collmenu.collapse('hide');
+        //const collmenu = document.querySelector('#collapse-menu');
+        //collmenu.collapse('hide');
     }
 
     return(
