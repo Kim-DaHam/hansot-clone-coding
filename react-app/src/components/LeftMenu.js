@@ -3,16 +3,19 @@ import "../stylesheets/left_menu.css";
 import { React } from 'bootstrap-4-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion } from "react-bootstrap";
+import { useEffect, useState } from "react";
+import categoryData from '../data/category.js'
+import menuData from '../data/menu.js';
 
 function LeftMenu() {
 
-  let [category, setCategory] = useState(categoryData);
-  let [menu, setMenu] = useState(menuData);
+  let [categoryList, setCategory] = useState(categoryData);
+  let [menuList, setMenu] = useState(menuData);
 
   return (
     <div className="LeftMenu">
       <div name="black-bar"></div>
-        <Accordion className="sidenav" defaultActiveKey="0" flush>
+        <Accordion className="sidenav" flush>
           <ul id="side-menu">
             <Accordion.Item eventKey="0">
               <Accordion.Header>전체메뉴</Accordion.Header>
