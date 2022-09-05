@@ -1,8 +1,10 @@
 #Header {
-    width: 1450px;
-    position: absolute;
+    width: 1250px;
+    margin-top: 10px;
     left: 50%;
     transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
 }
 
 #miniBar {
@@ -17,7 +19,7 @@
 
 #miniBar li {
     float: left;
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -25,61 +27,81 @@
 #miniBar li a{
     color: white;
     text-decoration-line: none;
+    font-weight: bold;
 }
 
 #NavBar {
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 #navBody {
-    width: 1450px;
-    height: 130px;
+    width: 1250px;
+    height: 95px;
     background-color: white;
 }
 
 #Logo {
     margin-left: 20px;
-    margin-right: 100px;
+    margin-right: 140px;
+}
+
+#Logo img {
+    width: 120px;
 }
 
 #NavBar ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-right:10px;
 }
 
 #NavBar ul li {
-    margin-left: 70px;
+    margin-left: 65px;
 }
 
 #NavBar li a{
     color: black;
     text-decoration-line: none;
-    font-weight: 600;
     font-size: 19px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 #collapse-menu {
-    width: 1450px;
+    width: 1250px;
     height: 200px;
     background-color: rgba(245, 245, 245, 0.76);
 }
 
 #collapse-menu ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     margin-top: 20px;
-    margin-right:20px;
     padding: 0;
     float: left;
 }
 
-#collapse-menu #menu-detail {
-    margin-left: 554px;
-    margin-right: 480px;
+#collapse-menu li {
+    width: 110px;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
 }
 
-#collapse-menu ul li {
-    text-align: center;
+#collapse-menu #brand-detail {
+    margin-left: 330px;
+}
+
+#collapse-menu #event-detail {
+    margin-right: 20px;
+}
+
+#collapse-menu #fran-detail {
+    margin-right: 35px;
+}
+
+#Header a {
+    color: black;
 }

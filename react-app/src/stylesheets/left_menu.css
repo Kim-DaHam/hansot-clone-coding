@@ -1,0 +1,58 @@
+.LeftMenu {
+    width: 280px;
+    height: 800px;
+}
+
+div[name="black-bar"] {
+    width: 280px;
+    height: 5px;
+    background-color: rgb(92, 89, 83);
+}
+
+.sidenav {
+    width: 280px;
+    height: 420px;
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    margin: 0;
+    margin: 20px;
+    padding: 0;
+}
+
+.sidenav li {
+    width: 230px;
+    height: 55px;
+    padding: 12px;
+    margin-left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.sidenav hr {
+    margin-top: 15px;
+    width: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.sidenav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+img[name="add"] {
+    width: 280px;
+}

@@ -1,0 +1,23 @@
+footer {
+    background-color: rgb(255, 209, 0);
+}
+
+footer ul {
+    list-style-type: none;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer li {
+    float: left;
+    margin-right: 25px;
+}
+
+#footer-menu li {
+    font-weight: 700;
+}
+
+#footer-menu {
+    padding-top: 30px;
+}
