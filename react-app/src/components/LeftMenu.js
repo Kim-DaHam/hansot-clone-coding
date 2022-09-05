@@ -11,52 +11,52 @@ function LeftMenu() {
         <Accordion className="sidenav" defaultActiveKey="0" flush>
           <ul id="side-menu">
             <Accordion.Item eventKey="0">
-              <Accordion.Header>전체메뉴</Accordion.Header>
+              <Accordion.Header><b>전체메뉴</b></Accordion.Header>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-              <Accordion.Header>신메뉴/행사</Accordion.Header>
+              <Accordion.Header><b>신메뉴/행사</b></Accordion.Header>
               <Accordion.Body>
                 <ul>
-                  <li>신메뉴</li>
+                  <li><a href="#">신메뉴</a></li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
-              <Accordion.Header>프리미엄·고메이</Accordion.Header>
+              <Accordion.Header><b>프리미엄·고메이</b></Accordion.Header>
               <Accordion.Body>
                 <ul>
-                  <li>프리미엄</li>
+                  <li><a href="#">프리미엄</a></li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
-              <Accordion.Header>사각도시락</Accordion.Header>
+              <Accordion.Header><b>사각도시락</b></Accordion.Header>
               <Accordion.Body>
                 <ul>
-                  <li>고기고기시리즈</li>
-                  <li>모둠시리즈</li>
-                  <li>정식시리즈</li>
+                  <li><a href="#">고기고기시리즈</a></li>
+                  <li><a href="#">모둠시리즈</a></li>
+                  <li><a href="#">정식시리즈</a></li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="4">
-              <Accordion.Header>보울도시락</Accordion.Header>
+              <Accordion.Header><b>보울도시락</b></Accordion.Header>
               <Accordion.Body>
                 <ul>
-                  <li>마요</li>
-                  <li>카레</li>
-                  <li>볶음밥</li>
-                  <li>프리미엄 찌개/탕</li>
+                  <li><a href="#">마요</a></li>
+                  <li><a href="#">카레</a></li>
+                  <li><a href="#">볶음밥</a></li>
+                  <li><a href="#">프리미엄 찌개/탕</a></li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="5">
-              <Accordion.Header>실속반찬/사이드</Accordion.Header>
+              <Accordion.Header><b>실속반찬/사이드</b></Accordion.Header>
               <Accordion.Body>
                 <ul>
-                  <li>실속반찬</li>
-                  <li>스낵 시리즈</li>
-                  <li>미니반찬</li>
+                  <li><a href="#">실속반찬</a></li>
+                  <li><a href="#">스낵 시리즈</a></li>
+                  <li><a href="#">미니반찬</a></li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>

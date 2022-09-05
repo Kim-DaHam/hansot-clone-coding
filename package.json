@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.1",
+    "oracledb": "^5.4.0"
   }
 }
