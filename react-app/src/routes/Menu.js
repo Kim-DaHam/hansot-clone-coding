@@ -1,8 +1,8 @@
 import "../stylesheets/menu.css";
-import Header from '../components/Header.js';
-import LeftMenu from '../components/LeftMenu.js';
-import MenuList from '../components/MenuList.js';
-import Footer from '../components/Footer.js';
+import Header from '../components/header/Header.js';
+import LeftMenu from '../components/leftMenu/LeftMenu.js';
+import MenuList from '../components/menuList/MenuList.js';
+import Footer from '../components/footer/Footer.js';
 
 function Menu(props){
     return(

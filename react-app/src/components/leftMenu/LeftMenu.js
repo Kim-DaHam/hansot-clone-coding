@@ -1,5 +1,5 @@
 //import { Route, Routes } from 'react-router-dom';
-import "../stylesheets/left_menu.css";
+import "./left_menu.css";
 import { React } from 'bootstrap-4-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion } from "react-bootstrap";

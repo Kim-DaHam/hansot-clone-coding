@@ -1,4 +1,4 @@
-import "../stylesheets/header.css";
+import "./header.css";
 import { Link } from 'react-router-dom';
 //import $ from 'jquery';
 //import { useEffect, useState } from "react";

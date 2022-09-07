@@ -1,4 +1,4 @@
-import "../stylesheets/main_content.css";
+import "./main_content.css";
 import Bootstrap, { Carousel, BImg } from 'bootstrap-4-react';
 import { useEffect } from "react";
 

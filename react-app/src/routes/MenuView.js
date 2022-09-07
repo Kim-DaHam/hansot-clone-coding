@@ -1,6 +1,6 @@
 import "../stylesheets/menu_view.css";
-import Header from '../components/Header.js';
-import Footer from '../components/Footer.js';
+import Header from '../components/header/Header.js';
+import Footer from '../components/footer/Footer.js';
 
 function MenuView(props){
     return(
