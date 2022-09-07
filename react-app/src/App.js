@@ -1,6 +1,4 @@
-import Home from './routes/Home.js'
-import Menu from './routes/Menu.js'
-import MenuView from './routes/MenuView.js'
+import {Home, Menu, MenuView} from './routes/index.js'
 import { Route, Routes } from 'react-router-dom';
 
 function App() {

@@ -1,8 +1,5 @@
-import "../stylesheets/menu.css";
-import Header from '../components/header/Header.js';
-import LeftMenu from '../components/leftMenu/LeftMenu.js';
-import MenuList from '../components/menuList/MenuList.js';
-import Footer from '../components/footer/Footer.js';
+import "./menu.css";
+import {Header, Footer, LeftMenu, MenuList} from '../components/index.js';
 
 function Menu(props){
     return(
