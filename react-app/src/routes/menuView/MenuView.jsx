@@ -1,5 +1,5 @@
 import "./menu_view.css";
-import {Header, Footer} from '../components/index.js';
+import {Header, Footer} from '../../components/index.js';
 
 const MenuView = (props) => {
     return(

@@ -1,4 +1,4 @@
-import {Header, Footer} from '../components/index.js';
+import {Header, Footer} from '../../components/index.js';
 
 const Join = (props) => {
     return(

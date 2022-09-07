@@ -1,4 +1,4 @@
-import {Header, Footer, MainContent} from '../components/index.js';
+import {Header, Footer, MainContent} from '../../components/index.js';
 
 const Home = (props) => {
     return(
