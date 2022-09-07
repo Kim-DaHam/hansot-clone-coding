@@ -12,6 +12,7 @@ function Menu(props){
                 <div className="grid-container">
                     <div className="header">
                         <p>한솥 메뉴</p>
+                        <p>-</p>
                     </div>
                     <LeftMenu/>
                     <MenuList/>
