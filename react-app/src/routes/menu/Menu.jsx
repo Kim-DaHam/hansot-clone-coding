@@ -1,7 +1,7 @@
 import "./menu.css";
 import {Header, Footer, LeftMenu, MenuList} from '../components/index.js';
 
-function Menu(props){
+const Menu = (props) => {
     return(
         <div id="body">
             <Header/>

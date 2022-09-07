@@ -4,10 +4,10 @@ import { React } from 'bootstrap-4-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import categoryData from '../data/category.js'
-import menuData from '../data/menu.js';
+import categoryData from '../../data/category.js'
+import menuData from '../../data/menu.js';
 
-function LeftMenu() {
+const LeftMenu = () => {
 
   let [categoryList, setCategory] = useState(categoryData);
   let [menuList, setMenu] = useState(menuData);

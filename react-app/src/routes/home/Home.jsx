@@ -1,6 +1,6 @@
 import {Header, Footer, MainContent} from '../components/index.js';
 
-function Home(props){
+const Home = (props) => {
     return(
         <>
             <Header/>

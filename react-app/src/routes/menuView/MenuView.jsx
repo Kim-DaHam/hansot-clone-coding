@@ -1,7 +1,7 @@
 import "./menu_view.css";
 import {Header, Footer} from '../components/index.js';
 
-function MenuView(props){
+const MenuView = (props) => {
     return(
         <div id="MVbody">
             <Header/>

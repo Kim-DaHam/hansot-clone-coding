@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 //import $ from 'jquery';
 //import { useEffect, useState } from "react";
 
-function Header(){
+const Header = () => {
     
     function openCollapse(e) {
         //$('#collapse-menu').collapse('show');

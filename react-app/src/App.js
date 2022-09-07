@@ -1,7 +1,7 @@
 import {Home, Menu, MenuView} from './routes/index.js'
 import { Route, Routes } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Routes>

@@ -1,6 +1,6 @@
 import "./footer.css";
 
-function Footer(){
+const Footer = () => {
     return(
         <>
         <footer className="w3-container w3-center w3-margin-top">

@@ -3,7 +3,7 @@ import Bootstrap, { Carousel, BImg } from 'bootstrap-4-react';
 import { useEffect } from "react";
 
 
-function MainContent(){
+const MainContent = () => {
 
     function showYellow(e){
         const yb = e.currentTarget.parentElement.children['yellow-bar'];

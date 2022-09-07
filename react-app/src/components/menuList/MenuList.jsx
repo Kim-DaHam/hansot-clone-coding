@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
 import "./menu_list.css";
-import categoryData from '../data/category.js'
-import menuData from '../data/menu.js';
+import categoryData from '../../data/category.js'
+import menuData from '../../data/menu.js';
 
-function MenuList() {
+const MenuList = () => {
   let [categoryList, setCategory] = useState(categoryData);
   let [menuList, setMenu] = useState(menuData);
 
