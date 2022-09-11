@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "jquery": "^3.6.1",
     "oracledb": "^5.4.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kim-DaHam/SWEDU_2022_HANSOT_REACT.git"
