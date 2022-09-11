@@ -8,9 +8,11 @@ const MenuList = () => {
   let [categoryList, setCategory] = useState(categoryData);
   let [menuList, setMenu] = useState(menuData);
 
+  /*
   useEffect(() =>{
-    
+
   }, []);
+  */
 
   return (
     <div className="MenuList">
@@ -31,8 +33,8 @@ const MenuList = () => {
             </Link>
           ))}
           </div>
-          
-        {/* Second Photo Grid 
+
+        {/* Second Photo Grid
         <div name="menu_item" className="w3-row-padding">
           <div className="w3-third w3-container w3-margin-bottom">
             <img src="/images/new04.jpg"/>
