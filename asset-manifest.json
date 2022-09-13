@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SWEDU_2022_HANSOT_REACT/static/css/main.296a349b.css",
+    "main.js": "/SWEDU_2022_HANSOT_REACT/static/js/main.6c1f80ed.js",
+    "index.html": "/SWEDU_2022_HANSOT_REACT/index.html",
+    "main.296a349b.css.map": "/SWEDU_2022_HANSOT_REACT/static/css/main.296a349b.css.map",
+    "main.6c1f80ed.js.map": "/SWEDU_2022_HANSOT_REACT/static/js/main.6c1f80ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.296a349b.css",
+    "static/js/main.6c1f80ed.js"
+  ]
+}
