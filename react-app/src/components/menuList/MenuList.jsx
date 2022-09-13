@@ -2,21 +2,22 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
 import "./menu_list.css";
 //import categoryData from '../../data/category.js'
-//import menuData from '../../data/menu.js';
+import menuData from '../../data/menu.js';
 import axios from 'axios';
 
 const MenuList = () => {
   //let [categoryList, setCategory] = useState(categoryData);
-  let [menuList, setMenu] = useState([]);
+  let [menuList, setMenu] = useState(menuData);
 
+  /*
   useEffect(() =>{
 
     async function getMenu() {
       try {
         await axios.get('/menu')
           .then((res) => {
-            console.log(res);
-            setMenu(res);
+            console.log(res.data);
+            setMenu(res.data);
           });
       } catch(e){
         console.error(e.message)
@@ -25,7 +26,7 @@ const MenuList = () => {
 
     getMenu();
   }, []);
-
+*/
 
   return (
     <div className="MenuList">
