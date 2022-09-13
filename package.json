@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "jquery": "^3.6.1",
-    "oracledb": "^5.4.0"
+    "nodemon": "^2.0.19",
+    "oracledb": "^5.5.0"
   },
   "repository": {
     "type": "git",

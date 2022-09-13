@@ -1,18 +1,31 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
 import "./menu_list.css";
-import categoryData from '../../data/category.js'
-import menuData from '../../data/menu.js';
+//import categoryData from '../../data/category.js'
+//import menuData from '../../data/menu.js';
+import axios from 'axios';
 
 const MenuList = () => {
-  let [categoryList, setCategory] = useState(categoryData);
-  let [menuList, setMenu] = useState(menuData);
+  //let [categoryList, setCategory] = useState(categoryData);
+  let [menuList, setMenu] = useState([]);
 
-  /*
   useEffect(() =>{
 
+    async function getMenu() {
+      try {
+        await axios.get('/menu')
+          .then((res) => {
+            console.log(res);
+            setMenu(res);
+          });
+      } catch(e){
+        console.error(e.message)
+      }
+    }
+
+    getMenu();
   }, []);
-  */
+
 
   return (
     <div className="MenuList">
